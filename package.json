@@ -1,0 +1,32 @@
+{
+  "name": "atbcoind-rpc",
+  "description": "ATBcoin Client Library to connect to ATBcoin Core via RPC",
+  "version": "0.0.1",
+  "keywords": [
+    "atbcoin",
+    "bitcoin",
+    "rpc"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/segwit/atbcoind-rpc"
+  },
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test -R spec",
+    "coverage": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- --recursive"
+  },
+  "devDependencies": {
+    "async": "^0.9.0",
+    "chai": "^1.10.0",
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.5",
+    "mocha": "^2.1.0",
+    "sinon": "^1.12.2"
+  },
+  "bugs": {
+    "url": "https://github.com/segwit/atbcoind-rpc/issues"
+  },
+  "homepage": "https://github.com/segwit/atbcoind-rpc"
+}
